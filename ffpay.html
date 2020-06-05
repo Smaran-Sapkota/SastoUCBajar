@@ -170,7 +170,10 @@
 							<div class="section-title">
 								<h3 class="title">DIAMOND PAYMENT</h3>
 							</div>
-							<form name="contact" method="POST" data-netlify="true"></form>
+							
+							
+							<form action="https://formspree.io/xeqrgpjv" method="POST" enctype="multipart/form-data" >
+
 							<div class="form-group">
 								<input class="input" type="text" name="full-name" placeholder="Full Name" required>
 							</div>
@@ -181,6 +184,7 @@
 							<div class="form-group">
 								<input class="input" type="tel" name="tel" placeholder="Phone Number" required>
 							</div><hr>
+
 							<h6>FREEFIRE ID :</h6>
 							<div class="form-group">
 								<input class="input" type="text" name="FF- ID" placeholder="Enter Player ID" required>
@@ -194,8 +198,11 @@
 							<div id="payment_pic_div" class="form-group">
 								<h6 for="payment_pic">Payment Picture:</h6>
 								<div id="preview"></div>
-								<input type="file" id="Payment" name="Payment" required>
-								  </div>
+
+								<input type="file" name="upload" required>
+
+								<!-- <input type="file" id="Payment" name="Payment" required> -->
+							</div>
 
 							
 						</div>
@@ -246,8 +253,12 @@
 								I've read and accept the <a href="#">terms & conditions</a>
 							</label>
 						</div>
-						<a href="succesful.html">
-							<input type="submit" value="Place Order"class="primary-btn order-submit"></a>
+
+						<input type="text" name="_gotcha" style="display:none" />
+
+						<!-- <a href="succesful.html"> -->
+							<input type="submit" value="Place Order"class="primary-btn order-submit">
+						<!-- </a> -->
 					</div>
 					<!-- /Order Details -->
 				</div>
