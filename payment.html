@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -168,7 +169,7 @@
 						<!-- Billing Details -->
 						<div class="billing-details">
 							<div class="section-title">
-								<h3 class="title">UC PAYMENT</h3>
+								<h3 class="title">PAYMENT DETAILS</h3>
 							</div>
 
 
@@ -181,27 +182,34 @@
 							<div class="form-group">
 								<input class="input" type="email" name="email" placeholder="Email" required>
 							</div>
+							<hr>
+							<h6>CHOOSE YOUR GAME</h6>
 							<div class="form-group">
-								<input class="input" type="tel" name="tel" placeholder="Phone Number" required>
-							</div><hr>
-							<h6>UC AMOUNT :</h6>
-							<div class="form-group">
-								<input class="input" type="text" name="uc-amount" placeholder="Example : 690 UC" required>
+								<select name="game" id="game">
+									<option value="pubg">PUBG-M</option>
+									<option value="freefire">FreeFire</option>
+									<option value="ml">Mobile Ledg.</option>
+								</select>
 							</div>
-							<h6>PUBG ID :</h6>
+							
+							<h6>PURCHASE AMOUNT :</h6>
 							<div class="form-group">
-								<input class="input" type="text" name="pubg-id" placeholder="Example : 6806584556" required>
+								<input class="input" type="text" name="amount" placeholder="Example : 690 UC or 690 Diamonds" required>
+							</div>
+							<h6>GAME ID :</h6>
+							<div class="form-group">
+								<input class="input" type="text" name="ID" placeholder="Example : 6806584556" required>
 							</div>
 
-							<h6>PUBG NAME :</h6>
+							<h6>GAME NAME :</h6>
 							<div class="form-group">
-								<input class="input" type="text" name="ign" placeholder="Example : 『DMR』SMARAN" required>
+								<input class="input" type="text" name="IGN : " placeholder="Example : 『DMR』SMARAN" required>
 							</div>
 
                   			<div id="payment_pic_div" class="form-group">
                     		<h6 for="payment_pic">Payment Picture:</h6>
 							<div id="preview"></div>
-							<input type="file" id="payment" name="payment" required>
+							<input type="file" id="Payment" name="Payment" required>
                   			</div>
 
 							
